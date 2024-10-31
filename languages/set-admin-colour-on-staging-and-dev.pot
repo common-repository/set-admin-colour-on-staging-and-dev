@@ -1,0 +1,134 @@
+# Copyright (C) 2020 set-admin-colour-on-staging-and-dev
+# This file is distributed under the same license as the set-admin-colour-on-staging-and-dev package.
+msgid ""
+msgstr ""
+"Project-Id-Version: set-admin-colour-on-staging-and-dev\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/index.php:62
+msgid "Cannot execute as the plugin already exists"
+msgstr ""
+
+#: src/admin/class-admin-pages.php:188
+msgid "Settings reset to defaults."
+msgstr ""
+
+#: src/admin/class-admin-settings.php:38
+msgid "Staging & Dev Colours"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:135
+msgid "About"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:143, src/admin/class-admin-settings.php:219
+msgid "Search Engine Visibility"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:151
+msgid "Domains"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:159
+msgid "Colour Schemes"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:193
+msgid "Information"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:195
+msgid ""
+"<p>This plugin will detect certain domains as staging or development, and apply the selected, non standard colour scheme to admin. This colour scheme will not be saved with the user data, so when you release to production the default user settings will be used.\n"
+"    </p>"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:201
+msgid "Support"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:203
+msgid ""
+"<p>For support visit <a class=\"button-secondary\" href=\"https://wordpress.org/support/plugin/set-admin-colour-on-staging-and-dev/\" target=\"_blank\">WordPress.org.</a></p>\n"
+""
+msgstr ""
+
+#: src/admin/class-admin-settings.php:227
+msgid "If checked, will automatically disable ( set noindex) search engine visibility for staging and dev, but will AUTOMATICALLY enable for the  live site<br>unchecked will leave the setting alone"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:249
+msgid "Staging Schemes"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:296
+msgid "The selected scheme will be automatically applied on staging domains"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:301
+msgid "Development Schemes"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:348
+msgid "The selected scheme will be automatically applied on development domains"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:363
+msgid "Staging Domains"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:372
+msgid "Enter Regular Expressions to match your staging domain, one per line if multiple"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:377
+msgid "Development Domains"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:386
+msgid "Enter Regular Expressions to match your development domain, one per line if multiple"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:418
+msgid "Development domains contain invalid Regular Expressions, not saved"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:432
+msgid "Staging domains contain invalid Regular Expressions, not saved"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:443
+msgid "Staging domains and Development domain are overlapped, domain not saved"
+msgstr ""
+
+#: src/admin/class-admin-settings.php:454
+msgid "Staging colours and Development colours are the same, colour selection not saved"
+msgstr ""
+
+#: src/admin/class-admin.php:80
+msgid "Material"
+msgstr ""
+
+#: src/admin/class-admin.php:86
+msgid "Neon Pink"
+msgstr ""
+
+#: src/admin/class-admin.php:103
+msgid "This is the STAGING site,  this is why the colour has changed !!!!! "
+msgstr ""
+
+#: src/admin/class-admin.php:108
+msgid "This is the DEVELOPMENT site,  this is why the colour has changed !!!!! "
+msgstr ""
+
+#: src/includes/autoloader.php:85
+msgid "The system file attempting to be loaded at %1$s does not exist."
+msgstr ""
